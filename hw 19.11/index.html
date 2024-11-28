@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        .form-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 10px;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid black;
+            width: 400px;
+        }
+
+        .form-container h1 
+        {
+            grid-column: span 2;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .form-container div
+         {
+            font-size: 16px;
+            align-self: center;
+        }
+
+        .form-container input
+         {
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-container button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Форма регистрации</h1>
+        <div>Имя:</div>
+        <input>
+        <div>Фамилия:</div>
+        <input>
+        <div>Email:</div>
+        <input>
+        <div>Пароль:</div>
+        <input>
+        <div>Возраст:</div>
+        <input>
+        <button>Отправить</button>
+    </div>
+</body>
+</html>
